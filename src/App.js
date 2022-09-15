@@ -1,9 +1,8 @@
-//axios installed as well :)
 import './App.scss';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import {BrowserRouter, Routes, Route, Navigate} from 'react-router-dom'
-import PlayerPage from './pages/UploadPage/UploadPage';
+import PlayerPage from './pages/PlayerPage/PlayerPage';
 
 function App() {
 
@@ -12,7 +11,7 @@ function App() {
         <BrowserRouter>
           <Header />
           <Routes>
-            <Route path='/' element={<Navigate to='/Home' />}></Route>
+            <Route path='/' element={<PlayerPage />}></Route>
             <Route path='/players/:name' element={<PlayerPage />}></Route>
           </Routes>
           <Footer />
