@@ -13,9 +13,9 @@ import variant2Medal from '../../assets/icons/variant2-medal.svg';
 
 const HeroImage = () => {
   return (
-    <main className='hero'>
-      <div className='heroimage'>
-        <div className='heroimage__wrapper'>
+    <main className="hero">
+      <div className="heroimage">
+        <div className="heroimage__wrapper">
           <div className="heroimage__description">
             <div className="heroimage__intro">
               <h2 className="heroimage__number">#3</h2>
@@ -35,28 +35,48 @@ const HeroImage = () => {
           </div>
           <div className="heroimage__linkicons">
             <div className="heroimage__iconright">
-              <a href="https://www.instagram.com/dianataurasi/" className="heroimage__link">
+              <a
+                href="https://www.instagram.com/dianataurasi/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="heroimage__link"
+              >
                 <img
                   src={instaIcon}
                   alt="right-icon"
                   className="heroimage__instagram"
                 ></img>
               </a>
-              <a href="https://www.tiktok.com/@dianataurasiofficial?lang=en" className="heroimage__link">
+              <a
+                href="https://www.tiktok.com/@dianataurasiofficial?lang=en"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="heroimage__link"
+              >
                 <img
                   src={tiktokIcon}
                   alt="right-icon"
                   className="heroimage__instagram"
                 ></img>
               </a>
-              <a href="https://www.facebook.com/dianataurasi" className="heroimage__link">
+              <a
+                href="https://www.facebook.com/dianataurasi"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="heroimage__link"
+              >
                 <img
                   src={facebookIcon}
                   alt="right-icon"
                   className="heroimage__instagram"
                 ></img>
               </a>
-              <a href="https://twitter.com/DianaTaurasi" className="heroimage__link">
+              <a
+                href="https://twitter.com/DianaTaurasi"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="heroimage__link"
+              >
                 <img
                   src={twitterIcon}
                   alt="right-icon"
@@ -65,7 +85,14 @@ const HeroImage = () => {
               </a>
             </div>
             <div className="heroimage__iconleft">
-              <button className="heroimage__bell"><img className='heroimage__bell-image' src={leftIcon} />Follow</button>
+              <button className="heroimage__bell">
+                <img
+                  className="heroimage__bell-image"
+                  src={leftIcon}
+                  alt="bell icon"
+                />
+                Follow
+              </button>
             </div>
             <div className="heroimage__medal" alt="medals">
               <img
@@ -85,10 +112,10 @@ const HeroImage = () => {
               ></img>
             </div>
           </div>
-          <img className='heroimage__extender' src={heroExtender} />
+          <img className="heroimage__extender" src={heroExtender} />
         </div>
       </div>
-      <div className='heroimage__divider'></div>
+      <div className="heroimage__divider"></div>
     </main>
   );
 }
