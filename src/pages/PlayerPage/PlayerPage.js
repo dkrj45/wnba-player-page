@@ -1,5 +1,4 @@
 //axios installed as well :)
-import headerImage from '../../assets/images/header.png';
 
 
 function PlayerPage() {
