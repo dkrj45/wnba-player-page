@@ -14,7 +14,7 @@ function App() {
             <Route path='/' element={<PlayerPage />}></Route>
             <Route path='/players/:name' element={<PlayerPage />}></Route>
           </Routes>
-          <Footer />
+          {/* <Footer /> */}
         </BrowserRouter>
     </div>
   );
