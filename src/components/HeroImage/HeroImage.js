@@ -25,7 +25,7 @@ const HeroImage = () => {
                   src={teamIcon}
                   alt="mercury pheonix"
                 ></img>
-                Mercury Phoenix
+                Phoenix Mercury
               </p>
               <h1 className="heroimage__name">
                 Diana<span className="heroimage__secondname">TAURASI</span>
