@@ -11,14 +11,21 @@ p {
 }
 
 .playerprofile {
+
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 7.5rem;
+    justify-content: center;
+    padding: 2rem 3rem;
+
+    &__body {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 1280px;
+    }
 
     &__top {
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         width: 100%;
         align-items: center;
     }
@@ -32,15 +39,21 @@ p {
     &__short-profile {
         display: flex;
         flex-direction: column;
-        width: 17%;
+        margin-top: 3.5rem;
+        width: 18rem;
 
         &-line {
             display: flex;
             justify-content: space-between;
-            border-bottom: 1px solid #F96220;
+            border-top: 1px solid #F96220;
             width: 100%;
             line-height: 0;
             padding-top: 5px;
+
+            &--featured {
+                @extend .playerprofile__short-profile-line;
+                border: none;
+            }
 
             &-key {
                 width: 30%;
@@ -50,5 +63,36 @@ p {
                 width: 70%;
             }
         }
+    }
+
+    &__board {}
+
+    &__board-options {
+        display: flex;
+    }
+
+    &__last-game {
+        width: 102px;
+        height: 32px;
+        background-image: url(../../assets/images/last-game.png);
+        padding: 10px 0 0 18px;
+        margin: 0;
+        font-size: 14px;
+    }
+
+    &__next-game {
+        width: 102px;
+        height: 32px;
+        background-image: url(../../assets/images/next-game.png);
+        padding: 10px 0 0 16px;
+        margin: 0;
+        font-size: 14px;
+        color: white;
+    }
+
+    &__board-content {
+        margin-left: 4px;
+        width: 388px;
+        height: 161px;
     }
 }
