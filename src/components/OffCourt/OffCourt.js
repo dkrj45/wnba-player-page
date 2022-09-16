@@ -5,6 +5,7 @@ import mda from '../../assets/images/mda.png'
 const OffCourt = () => {
     return (
         <div className="offCourt">
+            <div className='offCourt__body'>
             <h2 className="offCourt__title">Diana Off the Court</h2>
             <main className='offCourt__main'>
                 <section className='offCourt__left'>
@@ -74,6 +75,7 @@ const OffCourt = () => {
                     </section>
                 </div>
             </main>
+            </div>
         </div>
     );
 }

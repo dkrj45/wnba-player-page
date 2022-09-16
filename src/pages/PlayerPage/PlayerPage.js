@@ -8,8 +8,8 @@ function PlayerPage() {
   return (
     <div className="player-page">
       <HeroImage />
-      <OffCourt />
       <PlayerProfile />
+      <OffCourt />
     </div>
   );
 }

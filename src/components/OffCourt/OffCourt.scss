@@ -13,6 +13,12 @@ p {
 
 .offCourt {
     padding: 3rem;
+    display: flex;
+    justify-content: center;
+
+    &__body {
+        width: 1280px;
+    }
 
     &__main {
         display: flex;
