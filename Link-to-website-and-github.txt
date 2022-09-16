@@ -1,0 +1,5 @@
+Deployed Website:
+https://wnba-bucket-list.herokuapp.com/
+
+Github Repository:
+https://github.com/dkrj45/wnba-player-page.git
