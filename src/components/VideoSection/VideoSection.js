@@ -55,7 +55,7 @@ const VideoSection = () => {
               </a>
             </div>
             <div className="videosection__linksection">
-              <a href="/" className="videosection__link">
+              <a href="https://leaguepass.wnba.com/home" className="videosection__link">
                 Go to League Pass
               </a>
             </div>
