@@ -20,21 +20,21 @@ const HeroImage = () => {
           </a>
         </div>
         <div className="heroimage__iconright">
-          <a href="/" className="heroimage__link">
+          <a href="https://www.instagram.com/dianataurasi/" className="heroimage__link">
             <img
               src={instaIcon}
               alt="right-icon"
               className="heroimage__instagram"
             ></img>
           </a>
-          <a href="/" className="heroimage__link">
+          <a href="https://www.tiktok.com/@dianataurasiofficial?lang=en" className="heroimage__link">
             <img
               src={tiktokIcon}
               alt="right-icon"
               className="heroimage__instagram"
             ></img>
           </a>
-          <a href="/" className="heroimage__link">
+          <a href="https://www.facebook.com/dianataurasi" className="heroimage__link">
             <img
               src={facebookIcon}
               alt="right-icon"
@@ -48,7 +48,7 @@ const HeroImage = () => {
               className="heroimage__instagram"
             ></img>
           </a>
-          <a href="/" className="heroimage__link">
+          <a href="https://twitter.com/DianaTaurasi" className="heroimage__link">
             <img
               src={twitterIcon}
               alt="right-icon"

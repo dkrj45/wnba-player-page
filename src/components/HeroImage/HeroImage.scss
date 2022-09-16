@@ -1,12 +1,19 @@
 .heroimage{
   padding: 0 8.625rem;
+  background: linear-gradient(180deg, rgba(223, 223, 223, 0.58) 0%, rgba(223, 223, 223, 0) 30.73%);
+  box-shadow: 0px 4px 31px 4px rgba(0, 0, 0, 0.25);
+
   &__linkicons{
-    margin-top: 1.25rem;
+    padding-top: 1.25rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
-  &__instagram{
+
+  &__link {
+    width: 25px;
+    height: 25px;
     margin-left: 1.3125rem;
+    padding: 0;
   }
 }
