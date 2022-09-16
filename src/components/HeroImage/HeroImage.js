@@ -57,7 +57,7 @@ const HeroImage = () => {
           </a>
         </div>
       </div>
-      <div className="heroimage_">
+      <div className="heroimage__">
 
       </div>
     </main>
