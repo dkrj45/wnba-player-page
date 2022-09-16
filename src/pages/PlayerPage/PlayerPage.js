@@ -5,7 +5,7 @@ function PlayerPage() {
 
   return (
     <div className="player-page">
-      <HeroImage></HeroImage>
+      <HeroImage />
     </div>
   );
 }
