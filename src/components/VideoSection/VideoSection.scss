@@ -8,8 +8,23 @@
   align-items: center;
   padding: 2rem 3rem;
 
+
+  @media only screen and (max-width: 1380px) {
   &__wrapper {
     width: 1280px;
+    padding: 0 3rem;
+  }
+}
+
+@media only screen and (min-width: 1381px) {
+  &__wrapper {
+    width: 1280px;
+    padding: 0;
+  }
+}
+
+  &__appearance {
+    width: 100%;
   }
 
   &__bottom{
@@ -33,9 +48,15 @@
     align-items: center;
     margin-bottom: 0.625rem;
   }
+
+  // &__videolink {
+  //   width: 33%;
+  // }
+
   &__videoimage{
     margin-right: 1.25rem;
     width: 388px;
+    // width: 100%;
     height: auto;
 
     &--right {
