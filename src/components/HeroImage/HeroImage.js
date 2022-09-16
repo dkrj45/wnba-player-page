@@ -47,14 +47,7 @@ const HeroImage = () => {
           </a>
         </div>
         <div className="heroimage__iconleft">
-          {/* <a href="/" className="heroimage__link">
-            <img
-              src={leftIcon}
-              alt="bell-icon"
-              className="heroimage__bell"
-            ></img> Follow
-          </a> */}
-          <button className="heroimage__bell">Follow</button>
+          <button className="heroimage__bell"><img className='heroimage__bell-image' src={leftIcon} />Follow</button>
         </div>
       </div>
       <div className="heroimage__mainsection">
