@@ -17,19 +17,19 @@ const PlayerProfile = () => {
                     <div className='playerprofile__short-profile'>
                         <div className='playerprofile__short-profile-line--featured'>
                             <h3 className='playerprofile__short-profile-line-key'>Height</h3>
-                            <h3 className='playerprofile__short-profile-line-value'>6'0"</h3>
+                            <p className='playerprofile__short-profile-line-value'>6'0"</p>
                         </div>
                         <div className='playerprofile__short-profile-line'>
                             <h3 className='playerprofile__short-profile-line-key'>Weight</h3>
-                            <h3 className='playerprofile__short-profile-line-value'>163 lbs / 73.9 kg</h3>
+                            <p className='playerprofile__short-profile-line-value'>163 lbs / 73.9 kg</p>
                         </div>
                         <div className='playerprofile__short-profile-line'>
                             <h3 className='playerprofile__short-profile-line-key'>Birthday</h3>
-                            <h3 className='playerprofile__short-profile-line-value'>June 11th, 1982 (40 years)</h3>
+                            <p className='playerprofile__short-profile-line-value'>June 11th, 1982 (40 years)</p>
                         </div>
                         <div className='playerprofile__short-profile-line'>
                             <h3 className='playerprofile__short-profile-line-key'>From</h3>
-                            <h3 className='playerprofile__short-profile-line-value'>Connecticut</h3>
+                            <p className='playerprofile__short-profile-line-value'>Connecticut</p>
                         </div>
                     </div>
                     <div className='playerprofile__board'>
