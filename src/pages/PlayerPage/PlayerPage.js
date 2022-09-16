@@ -1,5 +1,6 @@
 //axios installed as well :)
 import HeroImage from "../../components/HeroImage/HeroImage";
+import OffCourt from "../../components/OffCourt/OffCourt";
 import PlayerProfile from "../../components/PlayerProfile/PlayerProfile";
 import VideoSection from "../../components/VideoSection/VideoSection";
 
@@ -10,6 +11,7 @@ function PlayerPage() {
       <HeroImage />
       <PlayerProfile />
       <VideoSection/>
+      <OffCourt />
     </div>
   );
 }
