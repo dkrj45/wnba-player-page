@@ -1,5 +1,5 @@
 .heroimage{
-  padding: 0 8.625rem;
+  padding: 0 7.5rem;
   &__linkicons{
     margin-top: 1.25rem;
     display: flex;
@@ -11,15 +11,16 @@
   }
   &__mainsection{
     width: 100%;
+    margin: 0 2.125rem;
     display: flex;
+    justify-content: space-between;
   }
   &__description{
-    width: 100%;
+    width: 15%;
   }
   &__intro{
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
   }
   &__number{
     font-size: 7.5rem;
@@ -44,11 +45,21 @@
     margin: 3.375rem 0;
   }
   &__medal{
+    position: relative;
+    right: 6.25rem;
     display: flex;
     align-items: center;
   }
   &__medal1{
     width: 5.125rem;
     height: 5rem;
+  }
+  &__player{
+    width: 70%;
+    display: flex;
+    align-items: flex-end;
+  }
+  &__heroimage{
+    width: 100%;
   }
 }
