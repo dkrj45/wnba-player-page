@@ -47,6 +47,10 @@
     display: flex;
     align-items: center;
     border: none;
+    &:hover{
+      transition-duration: 0.2s;
+      background-color: #F96220;
+    }
   }
 
   &__medal {
