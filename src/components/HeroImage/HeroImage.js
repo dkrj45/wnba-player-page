@@ -16,15 +16,6 @@ const HeroImage = () => {
   return (
     <main className="heroimage">
       <div className="heroimage__linkicons">
-        <div className="heroimage__iconleft">
-          <a href="/" className="heroimage__link">
-            <img
-              src={leftIcon}
-              alt="bell-icon"
-              className="heroimage__bell"
-            ></img>
-          </a>
-        </div>
         <div className="heroimage__iconright">
           <a href="https://www.instagram.com/dianataurasi/" className="heroimage__link">
             <img
@@ -47,13 +38,6 @@ const HeroImage = () => {
               className="heroimage__instagram"
             ></img>
           </a>
-          <a href="/" className="heroimage__link">
-            <img
-              src={snapchatIcon}
-              alt="right-icon"
-              className="heroimage__instagram"
-            ></img>
-          </a>
           <a href="https://twitter.com/DianaTaurasi" className="heroimage__link">
             <img
               src={twitterIcon}
@@ -61,6 +45,16 @@ const HeroImage = () => {
               className="heroimage__instagram"
             ></img>
           </a>
+        </div>
+        <div className="heroimage__iconleft">
+          {/* <a href="/" className="heroimage__link">
+            <img
+              src={leftIcon}
+              alt="bell-icon"
+              className="heroimage__bell"
+            ></img> Follow
+          </a> */}
+          <button className="heroimage__bell">Follow</button>
         </div>
       </div>
       <div className="heroimage__mainsection">
