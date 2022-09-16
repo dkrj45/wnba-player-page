@@ -97,7 +97,7 @@ const VideoSection = () => {
                 className="videosection__videolink"
               >
                 <img
-                  className="videosection__videoimage"
+                  className="videosection__videoimage--right"
                   src={video6}
                   alt="classic cuts"
                 />

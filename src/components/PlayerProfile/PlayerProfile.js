@@ -35,7 +35,7 @@ const PlayerProfile = () => {
                     <div className='playerprofile__board'>
                         <div className='playerprofile__board-options'>
                             <h3 className='playerprofile__last-game'>Last Game</h3>
-                            <h3 className='playerprofile__next-game'>next Game</h3>
+                            <h3 className='playerprofile__next-game'>Next Game</h3>
                         </div>
                         <img className='playerprofile__board-content' src={boardContent} />
                     </div>
@@ -50,7 +50,7 @@ const PlayerProfile = () => {
                     <div className='playerprofile__player-highs'>
                         <h3 className='playerprofile__player-highs-top'>Points</h3>
                         <p className='playerprofile__player-highs-top'>32 (Connecticut - 6/3/2022)</p>
-                        <p className='playerprofile__player-highs-top'>47 (Houstin - 8/10/2006)</p>
+                        <p className='playerprofile__player-highs-top'>47 (Houston - 8/10/2006)</p>
                     </div>
                     <div className='playerprofile__player-highs'>
                         <h3 className='playerprofile__player-highs-top'>Rebounds</h3>
