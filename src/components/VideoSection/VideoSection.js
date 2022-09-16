@@ -10,7 +10,7 @@ const VideoSection = () => {
   return (
     <>
       <section className="videosection">
-        <div className='videosection__wrapper'>
+        <div className="videosection__wrapper">
           <div className="videosection__appearance">
             <h2 className="videosection__title">League Pass Appearances</h2>
             <p className="videosection__paragraph">
@@ -66,42 +66,36 @@ const VideoSection = () => {
               Watch their best moment as told by fans like you.
             </p>
             <div className="videosection__videos">
-              <a
-                href="/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="videosection__videolink"
-              >
-                <img
-                  className="videosection__videoimage"
-                  src={video4}
-                  alt="classic cuts"
-                />
-              </a>
-              <a
-                href="/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="videosection__videolink"
-              >
-                <img
-                  className="videosection__videoimage"
-                  src={video5}
-                  alt="classic cuts"
-                />
-              </a>
-              <a
-                href="/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="videosection__videolink"
-              >
-                <img
-                  className="videosection__videoimage--right"
-                  src={video6}
-                  alt="classic cuts"
-                />
-              </a>
+              <iframe
+                className="videosection__frame"
+                width="388"
+                height="184"
+                src="https://www.youtube.com/embed/9VO7aFUMcWc"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <iframe
+                className="videosection__frame"
+                width="388"
+                height="184"
+                src="https://www.youtube.com/embed/u94jlOCNAIo"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <iframe
+                className="videosection__frame"
+                width="388"
+                height="184"
+                src="https://www.youtube.com/embed/bcPGRpXcclE"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
             </div>
             <div className="videosection__linksection">
               <a href="/" className="videosection__link">

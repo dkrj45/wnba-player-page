@@ -112,7 +112,7 @@ const HeroImage = () => {
               ></img>
             </div>
           </div>
-          <img className="heroimage__extender" src={heroExtender} />
+          <img className="heroimage__extender" src={heroExtender} alt="hero extender"/>
         </div>
       </div>
       <div className="heroimage__divider"></div>
