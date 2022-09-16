@@ -9,7 +9,6 @@ import video6 from '../../assets/images/image-6.png';
 const VideoSection = () => {
   return (
     <>
-      <div className="videosection__top"></div>
       <section className="videosection">
         <div className="videosection__appearance">
           <h2 className="videosection__title">League Pass Appearances</h2>
@@ -110,6 +109,7 @@ const VideoSection = () => {
           </div>
         </div>
       </section>
+      <div className="videosection__bottom"></div>
     </>
   );
 }
