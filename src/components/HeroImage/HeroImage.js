@@ -3,10 +3,9 @@ import leftIcon from '../../assets/icons/left-icon.png';
 import instaIcon from '../../assets/icons/Vector.svg';
 import tiktokIcon from '../../assets/icons/Vector-1.svg';
 import facebookIcon from '../../assets/icons/Vector-2.svg';
-import snapchatIcon from '../../assets/icons/Vector-3.svg';
 import twitterIcon from '../../assets/icons/Vector-4.svg';
 import teamIcon from '../../assets/icons/team-icon.svg';
-import heroImage from '../../assets/images/player-image.png';
+import heroExtender from '../../assets/images/hero-extender.png';
 import defaultMedal from '../../assets/icons/default-medal.svg';
 import variant1Medal from '../../assets/icons/variant1-medal.svg';
 import variant2Medal from '../../assets/icons/variant2-medal.svg';
@@ -86,8 +85,10 @@ const HeroImage = () => {
               ></img>
             </div>
           </div>
+          <img className='heroimage__extender' src={heroExtender} />
         </div>
       </div>
+      <div className='heroimage__divider'></div>
     </main>
   );
 }
