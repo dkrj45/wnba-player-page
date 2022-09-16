@@ -7,6 +7,11 @@
   flex-direction: column;
   align-items: center;
   padding: 2rem 3rem;
+
+  &__wrapper {
+    width: 1280px;
+  }
+
   &__bottom{
     width: 100%;
     height: 3.5rem;
@@ -19,7 +24,7 @@
   &__paragraph{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1rem;
-    font-weight: 400;
+    font-weight: 600;
   }
   &__videos{
     width: 100%;
@@ -30,8 +35,13 @@
   }
   &__videoimage{
     margin-right: 1.25rem;
-    width: 25vw;
+    width: 388px;
     height: auto;
+
+    &--right {
+      @extend .videosection__videoimage;
+      margin: 0;
+    }
   }
   &__linksection{
     display: flex;
