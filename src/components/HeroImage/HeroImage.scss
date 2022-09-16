@@ -1,0 +1,12 @@
+.heroimage{
+  padding: 0 8.625rem;
+  &__linkicons{
+    margin-top: 1.25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__instagram{
+    margin-left: 1.3125rem;
+  }
+}

@@ -1,11 +1,11 @@
 //axios installed as well :)
-
+import HeroImage from "../../components/HeroImage/HeroImage";
 
 function PlayerPage() {
 
   return (
-    <div className='player-page'>
-        okay
+    <div className="player-page">
+      <HeroImage></HeroImage>
     </div>
   );
 }
